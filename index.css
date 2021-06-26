@@ -1,0 +1,25 @@
+.grid{
+display:grid;
+grid-template-columns:180px 180px 180px ;
+grid-template-rows: auto auto auto;
+grid-column-gap: 0;
+}
+.grid div{
+    width:180px;
+    height:180px;
+    border:2px solid black;
+}
+.PlayerX{
+background-image: url(./cross.png);
+
+}
+.PlayerO{
+background-image: url(./circle.png);
+
+
+}
+.container{
+   display: flex;
+   align-items:center;
+   flex-direction:column;
+}
